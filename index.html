@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
     <!-- Konten Halaman -->
+    
     <nav class="nav-bar">
       <header class="logo">
-        <div>ini logo</div>
+        <div>
+          <img class="loggo" src="logo.jpg" alt="">
+        </div>
       </header>
 
       <section class="header">
@@ -30,11 +34,19 @@
       </article>
 
       <section class="seksion">
-        <article class="arrtikel">
-          <img src="laptop.jpg" class="gambar">
-        </article>
+        <div class="arrtikel">
+          <div class="banner-slide">
+            <img src="gunung.jpg" class="gambar">
+          </div>
+          <div class="banner-slide active">
+            <img src="pantai.jpg" class="gambar">
+          </div>
+          <div class="banner-slide">
+            <img src="city.jpg" class="gambar">
+          </div>
+        </div>
 
-        <div class="homepage">
+        <div class="homepage"> 
           <h1>
             Welcome to Dreamscape Travels.
           </h1>
@@ -52,33 +64,122 @@
               1
             </div>
             <p>
-              karna tempat ini bagus 
+              Expert Team:<br>Our team consists of seasoned professionals with extensive experience<br> in
+              Deamscape Travels We are dedicated to delivering top-notch tailored to your needs.
             </p>
            </div>
-          
-        </div>
-        
+           <div class="pilihan2">
+            <div class="angka2">
+              2
+            </div>
+            <p>
+              Innovative Solutions:<br>We use cutting-edge technology and innovative approaches to ensure<br>
+              that our travels are both effective and efficient.<br>
+            </p>
+           </div>
+        </div> 
       </section>
-      <section>
+      <section class="seksion2">
+        <div>
+        <h1 class="packagee">
+          Our Package
+        </h1>
+        <div>
+        <div class="paket">
+        <div class="package1">
+          <div class="satu">
+            1
+          </div>
+          <p>
+            <b>Vacation Package</b><br>Destination: Bali, Indonesia<br>
+            Duration: 5 Days / 4 Nights
+          </p>
+         </div>
+         <div class="package1">
+          <div class="satu">
+            2
+          </div>
+          <p>
+            <b>Nature Adventure Package</b><br>Destination: Rinjani, Lombok, Indonesia<br> 
+            Duration: 4 Days / 3 Nights
+          </p>
+         </div>
+        </div>
+
+        <div class="pakettengah">
+          <div class="package1">
+            <div class="satu">
+              3
+            </div>
+            <p>
+              <b>City Sightseeing Package</b><br>Destination: Tokyo, Japan<br>
+              Duration: 6 Days / 5 Nights
+            </p>
+           </div>
+           <div class="package1">
+            <div class="satu">
+              4
+            </div>
+            <p>
+              <b>Romantic Getaway Package</b><br>Destination: Santorini, Greece<br>
+              Duration: 4 Days / 3 Nights
+            </p>
+           </div>
+         </div>
+
+         <div class="paket">
+          <div class="package1">
+            <div class="satu">
+              5
+            </div>
+            <p>
+              <b>Family Vacation Package</b><br>Destination: Orlando, Florida<br>
+              Duration: 7 Days / 6 Nights
+            </p>
+           </div>
+           <div class="package1">
+            <div class="satu">
+              6
+            </div>
+            <p>
+              <b>Cultural Exploration Package</b><br>Destination: Kyoto, Japaneesee<br>
+              Duration: 5 Days / 4 Nights
+            </p>
+           </div>
+          </div>
+      </div>
+      </div></section>
+      <section class="seksion3">
         <div class="login-container">
-          <h2>Login</h2>
+          <h2>Call us</h2>
           <form id="login-form">
             <div class="input-group">
-              <label for="username">Username</label>
+              <label for="username">Your name</label>
               <input type="text" id="username" name="username" placeholder="Masukkan username">
             </div>
             <div class="input-group">
-              <label for="password">Password</label>
-              <input type="password" id="password" name="password" placeholder="Masukkan password">
+              <label for="password">Email Adress</label>
+              <input type="password" id="password" name="password" placeholder="Masukkan Email">
             </div>
-            <button type="submit" id="login-btn">Login</button>
+            <div class="input-group">
+              <label for="password">Your Package</label>
+              <input type="password" id="password" name="password" placeholder="Masukkan Package">
+            </div>
+            <div class="input-group">
+              <label for="password">Your Number</label>
+              <input type="password" id="password" name="password" placeholder="Masukkan nomor">
+            </div>
+            <button type="submit" id="login-btn">SEND</button>
           </form>
           <div class="forgot-password">
-            <a href="#">Forgot password?</a>
+            <a href="#">Problem?</a>
           </div>
         </div>
+      
       </section>
       
     </main>
-  </body>
+    <script src="js\script.js"></script>
+  
+</body>
 </html>
