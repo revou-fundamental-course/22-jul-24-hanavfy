@@ -61,7 +61,7 @@ body {
 .hiderr {
   margin-bottom: 10px;
   font-size: 50px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Bodoni';
 }
 
 .slogan {
@@ -291,8 +291,10 @@ body {
 
 @media (max-width: 768px) {
   .nav-bar {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    display: flex;
+    justify-content: space-around;
   }
   .logo {
     font-size: 18px;
@@ -300,7 +302,7 @@ body {
   }
   .header a {
     font-size: 16px;
-    margin-left: 20px;
+    margin-inline: 20px;
   }
   .main {
     margin-top: 50px;
@@ -311,10 +313,10 @@ body {
     font-size: 18px;
   }
   .hiderr {
-    font-size: 30px;
+    font-size: 33px;
   }
   .slogan {
-    font-size: 16px;
+    font-size: 12px;
   }
   .seksion {
     flex-direction: column;
@@ -389,7 +391,9 @@ body {
     padding-block: 20px;
   }
   .seksion3 {
-    margin: 57px;
+    margin: 0px;
+    margin-left: 47px;
+    margin-bottom: 20px;
   }
   .login-container {
     width: 90%;
